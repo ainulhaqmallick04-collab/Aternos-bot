@@ -36,9 +36,9 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 log = logging.getLogger("aternos-bot")
 
 # ── Config ────────────────────────────────────────────────────────────────────
-DISCORD_TOKEN    = os.getenv("DISCORD_TOKEN",    "YOUR_DISCORD_BOT_TOKEN")
-ATERNOS_USERNAME = os.getenv("ATERNOS_USERNAME", "YOUR_ATERNOS_USERNAME")
-ATERNOS_PASSWORD = os.getenv("ATERNOS_PASSWORD", "YOUR_ATERNOS_PASSWORD")
+DISCORD_TOKEN = os.environ["DISCORD_TOKEN"]
+ATERNOS_USERNAME = os.getenv("ATERNOS_USERNAME", "Aternos_bot00001")
+ATERNOS_PASSWORD = os.getenv("ATERNOS_PASSWORD", "ainmeezan")
 
 ATERNOS_BASE     = "https://aternos.org"
 LOGIN_URL        = f"{ATERNOS_BASE}/go/"
